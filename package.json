@@ -1,13 +1,13 @@
 {
-  "name": "homebridge-midea-air",
+  "name": "homebridge-midea-air-osk103",
   "version": "1.4.9",
-  "description": "Homebridge plugin for Midea AC units",
+  "description": "Homebridge plugin for Midea AC units with specific focus on expanded OSK103 module support. Fork of the wonderful hillaliy/homebridge-midea-air, who did all the hard work",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hillaliy/homebridge-midea-air.git"
+    "url": "https://github.com/taylorwilsdon/homebridge-midea-air-osk103.git"
   },
   "bugs": {
-    "url": "https://github.com/hillaliy/homebridge-midea-air/issues"
+    "url": "https://github.com/taylorwilsdon/homebridge-midea-air-osk103/issues"
   },
   "main": "lib/index.js",
   "files": [
@@ -20,7 +20,7 @@
     "node": ">=16.0.0",
     "homebridge": ">=1.3.0"
   },
-  "author": "Yossi Hillali <hillaliy@me.com>",
+  "author": "Taylor Wilsdon <taylor@taylorwilsdon.com>",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.27.2",
@@ -50,8 +50,4 @@
   "scripts": {
     "build": "tsc"
   },
-  "funding": {
-    "type": "paypal",
-    "url": "https://www.paypal.me/hillaliy"
-  }
 }
